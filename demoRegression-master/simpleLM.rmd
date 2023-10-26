@@ -55,3 +55,47 @@ plot(LENGTH~HEADLEN,data=bears)
 abline(HEADLEN)
 summary.lm(HEADLEN)
 ```
+
+
+## make a regression model for HEADWTH
+
+
+## Model LENGTH ~ HEADWTH  this is an example  
+
+```{r}
+HEADWTH <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(HEADWTH)
+summary.lm(HEADWTH)
+```
+
+## make a regression model for CHEST
+
+
+## Model LENGTH ~ CHEST  this is an example  
+
+```{r}
+CHEST <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(CHEST)
+summary.lm(CHEST)
+```
+
+
+## make a regression model for WEIGHT
+
+
+## Model LENGTH ~ WEIGHT  this is an example  
+
+```{r}
+WEIGHT <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(WEIGHT)
+summary.lm(WEIGHT)
+```
+
+
+
+## CONCLUSION
+
+of all the models the best is HEADLEN because the adjusted r squared value is 0.8434 which is also the highest
